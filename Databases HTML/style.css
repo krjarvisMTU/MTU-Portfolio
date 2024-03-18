@@ -1,0 +1,51 @@
+label {
+    font-size: 1.2em;
+    color: #333;
+}
+
+input[type="text"], input[type="password"] {
+    font-size: 1.2em;
+    color: #333;
+    padding: 5px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+
+  button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0 auto;
+    display: block;
+  }
+  
+  button:hover {
+    background-color: #555;
+  }
+
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: top;
+    height: 100vh;
+  }
+
+  .button-container {
+    text-align: right;
+  }
+
+  .header {
+    background-color: #4dd0da;
+    color: #332525;
+    padding: 20px 40px;
+    border: #000000;
+    border-radius: 5px;
+    display: block;
+    justify-content: space-between;
+    align-items: center;
+    text-align: right;
+}
